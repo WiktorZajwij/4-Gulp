@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html', {
+"title": "Dreamshare"
+})
+
+<body>
+  @@include('html/header.html', {})
+  <main class="main">
+    <section class="section features">
+      <div class="container">
+        <h2 class="title features__title">How Dreamshare works?</h2>
+        <ul class="features__list">
+          <li class="features__item features__item--1">
+            <a class="features__link" href="#">
+              <div class="features__content">
+                <p class="features__step">Step 1</p>
+                <b class="features__tagline">Sed leo enim, condimentum</b>
+                <p class="features__text">
+                  Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet
+                  facilisis.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="features__item features__item--2">
+            <a class="features__link" href="#">
+              <div class="features__content">
+                <p class="features__step">Step 2</p>
+                <b class="features__tagline">Morbi velit risus</b>
+                <p class="features__text">
+                  Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="features__item features__item--3">
+            <a class="features__link" href="#">
+              <div class="features__content">
+                <p class="features__step">Step 3</p>
+                <b class="features__tagline">Sed leo enim, condimentum</b>
+                <p class="features__text">
+                  Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet
+                  facilisis.
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section partner">
+      <div class="container">
+        <h2 class="title partner__title">Meet a partner for your best holiday</h2>
+        <ul class="partner__list">
+          <li class="partner__item">
+            <a class="partner__link" href="#">
+              <div class="partner__icon partner__icon--music">
+                <img class="img partner__img" src="@img/Bradley_Hunter.jpg" alt="Bradley Hunter">
+              </div>
+              <h3 class="partner__name">Bradley Hunter</h3>
+              <p class="partner__description">Based in Chicago. I love playing tennis and loud music.</p>
+            </a>
+          </li>
+          <li class="partner__item">
+            <a class="partner__link" href="#">
+              <div class="partner__icon partner__icon--artist">
+                <img class="img partner__img" src="@img/Marie_Bennett.jpg" alt="Marie Bennett">
+              </div>
+              <h3 class="partner__name">Marie Bennett</h3>
+              <p class="partner__description">Currently living in Colorado. Lover of art, languages and travelling.</p>
+            </a>
+          </li>
+          <li class="partner__item">
+            <a class="partner__link" href="#">
+              <div class="partner__icon partner__icon--foto">
+                <img class="img partner__img" src="@img/Diana_Wells.jpg" alt="Diana Wells">
+              </div>
+              <h3 class="partner__name">Diana Wells</h3>
+              <p class="partner__description">Living in Athens, Greece. I love black and white classics, chillout music
+                and green tea.</p>
+            </a>
+          </li>
+          <li class="partner__item">
+            <a class="partner__link" href="#">
+              <div class="partner__icon partner__icon--fly">
+                <img class="img partner__img" src="@img/Christopher_Pierce.jpg" alt="Christopher Pierce">
+              </div>
+              <h3 class="partner__name">Christopher Pierce</h3>
+              <p class="partner__description">Star Wars fanatic. I have a persistent enthusiasm to create new things.</p>
+            </a>
+          </li>
+        </ul>
+        <a class="btn partner__btn-all" href="#">See other partners</a>
+      </div>
+    </section>
+    <section class="section ideas">
+      <div class="container">
+        <h2 class="title ideas__title">Discover holiday activity ideas</h2>
+        <ul class="ideas__list">
+          <li class="ideas__item ideas__item--sports">
+            <a class="ideas__link" href="#">
+              <h3 class="ideas__name">Sports and Activis</h3>
+            </a>
+          </li>
+          <li class="ideas__item ideas__item--wellness">
+            <a class="ideas__link" href="#">
+              <h3 class="ideas__name">Wellness and Health</h3>
+            </a>
+          </li>
+          <li class="ideas__item ideas__item--extreme">
+            <a class="ideas__link" href="#">
+              <h3 class="ideas__name">
+                Extreme Sports <br> and Expeditions
+              </h3>
+            </a>
+          </li>
+          <li class="ideas__item ideas__item--games">
+            <a class="ideas__link" href="#">
+              <h3 class="ideas__name">Games</h3>
+            </a>
+          </li>
+          <li class="ideas__item ideas__item--culture ideas__item--big">
+            <a class="ideas__link" href="#">
+              <h3 class="ideas__name">Culture and Education</h3>
+            </a>
+          </li>
+          <li class="ideas__item ideas__item--enjomet">
+            <a class="ideas__link" href="#">
+              <h3 class="ideas__name">Enjomet and Relaxation</h3>
+            </a>
+          </li>
+          <li class="ideas__item ideas__item--travelling">
+            <a class="ideas__link" href="#">
+              <h3 class="ideas__name">Trevelling</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section search">
+      <div class="container">
+        <h2 class="title search__title">Crate your holiday activity</h2>
+        <form class="search__form" action="#" method="get">
+          <label class="search__label" for="search__input">Hi! What are your holiday interests?</label>
+          <input class="search__input" id="search__input" type="search" name="search" placeholder="Enter your insterests">
+          <input class="search__submit btn" type="submit" value="Search partners">
+        </form>
+      </div>
+    </section>
+  </main>
+
+
+  @@include('html/footer.html', {})
+  <script src="js/app.min.js"></script>
+</body>
+</html>
