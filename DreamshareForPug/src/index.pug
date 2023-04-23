@@ -1,0 +1,105 @@
+doctype html
+html
+  head
+    include html/head
+
+  body
+    include html/header
+
+  main.main
+      section.section.features
+        .container
+          h2.title.features__title How Dreamshare works?
+          ul.features__list
+            li.features__item.features__item--1
+              a.features__link(href='#')
+                .features__content
+                  p.features__step Step 1
+                  b.features__tagline Sed leo enim, condimentum
+                  p.features__text
+                    | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet
+                    | facilisis.
+            li.features__item.features__item--2
+              a.features__link(href='#')
+                .features__content
+                  p.features__step Step 2
+                  b.features__tagline Morbi velit risus
+                  p.features__text
+                    | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+            li.features__item.features__item--3
+              a.features__link(href='#')
+                .features__content
+                  p.features__step Step 3
+                  b.features__tagline Sed leo enim, condimentum
+                  p.features__text
+                    | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet
+                    | facilisis.
+      section.section.partner
+        .container
+          h2.title.partner__title Meet a partner for your best holiday
+          ul.partner__list
+            li.partner__item
+              a.partner__link(href='#')
+                .partner__icon.partner__icon--music
+                  img.img.partner__img(src='@img/Bradley_Hunter.jpg' alt='Bradley Hunter')
+                h3.partner__name Bradley Hunter
+                p.partner__description Based in Chicago. I love playing tennis and loud music.
+            li.partner__item
+              a.partner__link(href='#')
+                .partner__icon.partner__icon--artist
+                  img.img.partner__img(src='@img/Marie_Bennett.jpg' alt='Marie Bennett')
+                h3.partner__name Marie Bennett
+                p.partner__description Currently living in Colorado. Lover of art, languages and travelling.
+            li.partner__item
+              a.partner__link(href='#')
+                .partner__icon.partner__icon--foto
+                  img.img.partner__img(src='@img/Diana_Wells.jpg' alt='Diana Wells')
+                h3.partner__name Diana Wells
+                p.partner__description
+                  | Living in Athens, Greece. I love black and white classics, chillout music
+                  | and green tea.
+            li.partner__item
+              a.partner__link(href='#')
+                .partner__icon.partner__icon--fly
+                  img.img.partner__img(src='@img/Christopher_Pierce.jpg' alt='Christopher Pierce')
+                h3.partner__name Christopher Pierce
+                p.partner__description Star Wars fanatic. I have a persistent enthusiasm to create new things.
+          a.btn.partner__btn-all(href='#') See other partners
+      section.section.ideas
+        .container
+          h2.title.ideas__title Discover holiday activity ideas
+          ul.ideas__list
+            li.ideas__item.ideas__item--sports
+              a.ideas__link(href='#')
+                h3.ideas__name Sports and Activis
+            li.ideas__item.ideas__item--wellness
+              a.ideas__link(href='#')
+                h3.ideas__name Wellness and Health
+            li.ideas__item.ideas__item--extreme
+              a.ideas__link(href='#')
+                h3.ideas__name
+                  | Extreme Sports 
+                  br
+                  |  and Expeditions
+            li.ideas__item.ideas__item--games
+              a.ideas__link(href='#')
+                h3.ideas__name Games
+            li.ideas__item.ideas__item--culture.ideas__item--big
+              a.ideas__link(href='#')
+                h3.ideas__name Culture and Education
+            li.ideas__item.ideas__item--enjomet
+              a.ideas__link(href='#')
+                h3.ideas__name Enjomet and Relaxation
+            li.ideas__item.ideas__item--travelling
+              a.ideas__link(href='#')
+                h3.ideas__name Trevelling
+      section.section.search
+        .container  
+          h2.title.search__title Crate your holiday activity
+          form.search__form(action='#' method='get')
+            label.search__label(for='search__input') Hi! What are your holiday interests?
+            input#search__input.search__input(type='search' name='search' placeholder='Enter your insterests')
+            input.search__submit.btn(type='submit' value='Search partners')
+  
+  include html/footer
+  script(src='js/app.min.js')
